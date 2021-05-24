@@ -82,21 +82,22 @@ go run main.go help sql
 go run main.go help sql struct
 ```
 
-> $ go run main.go help sql struct
-> sql轉換
->
-> Usage:
->    sql struct [flags]
->
-> Flags:
->       --charset string    請輸入資料庫的編碼 (default "utf8mb4")
->       --db string         請輸入資料庫名稱
->   -h, --help              help for struct
->       --host string       請輸入資料庫的HOST (default "127.0.0.1:3306")
->       --password string   請輸入資料庫的密碼
->       --table string      請輸入表名稱
->       --type string       請輸入資料庫實例類型 (default "mysql")
->       --username string   請輸入資料庫的帳號**
+```text
+sql轉換
+
+Usage:
+   sql struct [flags]
+
+Flags:
+      --charset string    請輸入資料庫的編碼 (default "utf8mb4")
+      --db string         請輸入資料庫名稱
+  -h, --help              help for struct
+      --host string       請輸入資料庫的HOST (default "127.0.0.1:3306")
+      --password string   請輸入資料庫的密碼
+      --table string      請輸入表名稱
+      --type string       請輸入資料庫實例類型 (default "mysql")
+      --username string   請輸入資料庫的帳號**
+```
 
 使用範例 :  
 
